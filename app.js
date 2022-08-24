@@ -79,9 +79,10 @@ function App() {
     }
 
     const resetTime = () => {
-        setBreakTime(5 * 60)
-        setSessionTime(25 * 60)
-        setDisplayTime(25 * 60)
+        setBreakTime(5 * 60);
+        setSessionTime(25 * 60);
+        setDisplayTime(25 * 60);
+        setOnBreak(false);
     }
 
     return (
