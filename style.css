@@ -7,11 +7,12 @@
 }
 
 body {
-    height: 95vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #eaebea;
+    margin: 3rem 0;
 }
 
 h1 {
@@ -47,8 +48,8 @@ button {
 }
 
 .length-container {
-    height: 100px;
-    width: 200px;
+    height: 80%;
+    width: 90%;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     justify-items: center;
@@ -158,4 +159,16 @@ button {
 .start-stop:hover::before,
 .start-stop:hover::after {
     width: 80%;
+}
+
+@media (max-width: 750px) {
+    .settings-container {
+        display: grid;
+        grid-template: repeat(2, 1fr) / 1fr;
+        justify-items: center;
+    }
+
+    .length-container h3 {
+        font-size: calc(1.75rem + 0.390625vw);
+    }
 }
