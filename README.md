@@ -5,6 +5,7 @@
 ## About
 This project was made for freeCodeCamp's final [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock) project. The majority of the pomodoro clock was built using react as an opportunity to improve my skills using a front end framework.  
 These are some of the biggest challenges I faced:
+- Becoming more familiar with the React framework
 - Creating the countdown functionality
 - Ensuring the end of each session or break continued in to the next once the timer reached 00:00
 ## View Project
